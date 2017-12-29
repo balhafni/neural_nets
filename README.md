@@ -1,7 +1,6 @@
 # Neural-Network-and-Deep-Learning
 
-This repo will contain all the projects as part of Andrew Ng's deep learning course on coursera! 
+Playng around with Neural Nets....
 
-
-Week 2:
+First Project:
 - Building a simple logistic regression classifier to recognize cats up to 70% accuracy.
