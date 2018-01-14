@@ -2,5 +2,6 @@
 
 Playng around with Neural Nets....
 
-First Project:
-- Building a simple logistic regression classifier to recognize cats up to 70% accuracy.
+
+1) A simple logistic regression classifier to recognize cats up to 70% accuracy.
+2) A a simple palnar classifier using gradient descent and only a single hidden layer. 
