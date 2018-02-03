@@ -36,9 +36,7 @@ def initialize_parameters(n_x, n_h, n_y):
                   W2 -- weight matrix of shape (n_y, n_h)
                   b2 -- bias vector of shape (n_y, 1)
          """
-        np.random.seed(2) #  set up a seed so that the output matches mine although the initialization
-                              #  is random.
-    
+     
   
         W1 = np.random.randn(n_h,n_x) * 0.01
         b1 = np.zeros((n_h,1))

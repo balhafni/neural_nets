@@ -28,12 +28,12 @@ class Mindset_NeuralNet:
 
     def load_dataset(self):
         train_dataset = h5py.File('datasets/train_catvnoncat.h5', "r")
-        self.train_set_x_orig = np.array(train_dataset["train_set_x"][:]) # your train set features
-        self.train_set_y_orig = np.array(train_dataset["train_set_y"][:]) # your train set labels
+        self.train_set_x_orig = np.array(train_dataset["train_set_x"][:]) #  train set features
+        self.train_set_y_orig = np.array(train_dataset["train_set_y"][:]) #  train set labels
 
         test_dataset = h5py.File('datasets/test_catvnoncat.h5', "r")
-        self.test_set_x_orig = np.array(test_dataset["test_set_x"][:]) # your test set features
-        self.test_set_y_orig = np.array(test_dataset["test_set_y"][:]) # your test set label
+        self.test_set_x_orig = np.array(test_dataset["test_set_x"][:]) # test set features
+        self.test_set_y_orig = np.array(test_dataset["test_set_y"][:]) # test set label
         self.classes = np.array(test_dataset["list_classes"][:]) # the list of classes
    
         self.train_set_y = self.train_set_y_orig.reshape((1, self.train_set_y_orig.shape[0]))
