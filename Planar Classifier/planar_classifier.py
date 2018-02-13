@@ -226,7 +226,7 @@ def nn_model(X, Y, n_h, num_iterations, print_cost):
         b2 = parameters["b2"]
   
     
-        # Loop (gradient descent)
+        # (gradient descent)
 
         for i in range(0, num_iterations):
          

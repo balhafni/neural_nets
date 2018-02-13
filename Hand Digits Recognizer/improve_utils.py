@@ -29,7 +29,6 @@ def random_mini_batches(X, Y, mini_batch_size = 64, seed = 0):
     X -- input data, of shape (input size, number of examples)
     Y -- true "label" vector (containing 0 if cat, 1 if non-cat), of shape (1, number of examples)
     mini_batch_size - size of the mini-batches, integer
-    seed -- this is only for the purpose of grading, so that you're "random minibatches are the same as ours.
     
     Returns:
     mini_batches -- list of synchronous (mini_batch_X, mini_batch_Y)
@@ -104,9 +103,6 @@ def create_placeholders(n_x, n_y):
     X -- placeholder for the data input, of shape [n_x, None] and dtype "float"
     Y -- placeholder for the input labels, of shape [n_y, None] and dtype "float"
     
-    Tips:
-    - You will use None because it let's us be flexible on the number of examples you will for the placeholders.
-      In fact, the number of examples during test/train is different.
     """
 
    
