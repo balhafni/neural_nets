@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
+from PIL import Image
 import h5py
 import scipy
 from scipy import ndimage
@@ -303,8 +304,8 @@ class GUI:
         self.canvas.get_tk_widget().pack()
         button_test = tkinter.Button(self.frame, text = 'Pick a random image from the dataset', command = self.get_random_image)
         button_test.pack()
-        # button_choose = tkinter.Button(self.frame, text = 'Pick your own image', command = self.get_chosen_image)
-        # button_choose.pack()
+        button_choose = tkinter.Button(self.frame, text = 'Pick your own image', command = self.get_chosen_image)
+        button_choose.pack()
         self.frame.mainloop()
 
     def get_chosen_image(self):
