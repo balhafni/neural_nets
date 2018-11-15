@@ -5,7 +5,7 @@ from matplotlib.figure import Figure
 import h5py
 import scipy
 from scipy import ndimage
-from PIL import Image
+
 import tkinter
 from tkinter import messagebox
 from tkinter.filedialog import askopenfilename
@@ -46,7 +46,7 @@ class gui:
         self.figure = Figure(figsize = (5,5), dpi = 100)
         self.a = self.figure.add_subplot(111)
         self.canvas = FigureCanvasTkAgg(self.figure,self.frame)
-        self.canvas.show()
+        self.canvas.draw()
         self.canvas.get_tk_widget().pack()
         button_choose = tkinter.Button(self.frame, text = 'Pick your own image', command = self.get_chosen_image)
         button_choose.pack()
