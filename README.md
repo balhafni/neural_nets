@@ -1,7 +1,21 @@
-# Neural-Network-and-Deep-Learning
+# Simple Neural Networks Examples:
 
-Playing around with Neural Nets....
+This repo contains just three simple, yet very interesting examples of neural nets.
 
+### Setup:
+
+To run the examples in this repo, you would need to install conda.
+
+After that just follow these simple steps:
+
+Clone the repo to your local machine
+```
+git clone https://github.com/balhafni/neural_nets.git
+```
+Install all the dependencies you need by using the envrionment.yaml file
+```
+conda env create -f environment.yml
+```
 
 ## 1) Logistic Regression with a Neural Net mindset: 
 A simple logistic regression classifier to recognize images of cats with up to 70% accuracy.
