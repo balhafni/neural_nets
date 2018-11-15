@@ -64,6 +64,8 @@ python hand_digits_recognizer/gui.py
 ```
 The model will train on the training set and after it's done training, the predictons will be shown as below.
 
+![one](https://github.com/balhafni/neural_nets/blob/master/hand_digits_recognizer/results/one.png)
+![zero](https://github.com/balhafni/neural_nets/blob/master/hand_digits_recognizer/results/zero.png)
 
  
 
