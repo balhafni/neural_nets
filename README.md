@@ -8,6 +8,11 @@ A simple logistic regression classifier to recognize images of cats with up to 7
 
 ## 2) Planar Classifier:
 A simple classifier that uses gradient descent and only a single hidden layer. 
+
+Random blue and red points on a plane:
 ![random points](https://github.com/balhafni/neural_nets/blob/master/planar_classifier/results/planar_rand_points.png)
+
+Classified points:
+![classified points](https://github.com/balhafni/neural_nets/blob/master/planar_classifier/results/planar_after.png)
 ## 3) Sign Digits Recognizer:
 An optimized deep neural net that uses mini-batch gradient descent to recognize sign digits from 0 to 5 (using Tensorflow YAY!)
